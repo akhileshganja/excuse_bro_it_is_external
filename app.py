@@ -4,7 +4,7 @@ import unittest
 def add(a, b):
     return a + b
 
-# 2. Test Cases
+# 2. Test Cases (No import needed since everything is in one file)
 class TestMath(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(10, 5), 15)
@@ -12,4 +12,3 @@ class TestMath(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
